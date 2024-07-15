@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #264653;
+    /* color: #2a9d8f; */
+    color: #fff;
+}
+.container {
+    margin-left: 33%;
+    margin-top: 10%;
+}
+.container hr {
+    width: 500px;
+    margin-top: 20px;
+}
+.container h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.generator {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    background: #fff;
+    height: 100%;
+    width: 30%;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+}
+.generator ion-icon {
+    cursor: pointer;
+    height: 35px;
+    color: #2a9d8f;
+    width: 35px;
+    transform: translateX(100%);
+}
+input[type="text"] {
+    margin-left: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    color: #264653;
+    border: none;
+    outline: none;
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    background: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background: #fff;
+    color: #2a9d8f;
+    box-shadow: 0 0 20px #2a9d8f;
+}
+.button ion-icon {
+   height: 25px;
+   width: 25px; 
+}
