@@ -6,7 +6,6 @@
 }
 body {
     background: #264653;
-    /* color: #2a9d8f; */
     color: #fff;
 }
 .container {
@@ -62,7 +61,7 @@ input[type="text"] {
     border-radius: 10px;
     cursor: pointer;
 }
-.button:hover {
+.button: hover {
     background: #fff;
     color: #2a9d8f;
     box-shadow: 0 0 20px #2a9d8f;
